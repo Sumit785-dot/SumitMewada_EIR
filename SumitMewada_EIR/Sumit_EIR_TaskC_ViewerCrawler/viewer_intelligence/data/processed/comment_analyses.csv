@@ -1,0 +1,501 @@
+comment_id,author,language,language_confidence,cities_mentioned,countries_mentioned,spacy_locations,timezone_hint,text_length,published_at
+comment_0000,User0000,en,0.5,['Chicago'],[],[],afternoon,36,2025-10-14T12:33:56.652224Z
+comment_0001,User0001,en,0.5,['Helsinki'],[],[],morning,41,2025-10-02T07:01:56.652224Z
+comment_0002,User0002,en,0.5,[],['Singapore'],[],morning,42,2025-10-01T08:24:56.652224Z
+comment_0003,User0003,no,0.5,[],['Denmark'],[],afternoon,32,2025-10-14T17:19:56.652224Z
+comment_0004,User0004,en,0.5,[],[],[],evening,19,2025-10-01T20:56:56.652224Z
+comment_0005,User0005,en,0.5,['Oslo'],[],[],evening,32,2025-10-04T19:42:56.652224Z
+comment_0006,User0006,en,0.5,['Mexico City'],[],[],late_night,44,2025-10-08T03:06:56.652224Z
+comment_0007,User0007,en,0.5,[],[],[],morning,21,2025-09-18T11:39:56.652224Z
+comment_0008,User0008,nl,0.5,['Amsterdam'],[],[],afternoon,39,2025-10-05T16:27:56.652224Z
+comment_0009,User0009,en,0.5,[],['Singapore'],[],morning,42,2025-09-18T09:16:56.652224Z
+comment_0010,User0010,en,0.5,[],['Singapore'],[],afternoon,34,2025-09-17T13:00:56.652224Z
+comment_0011,User0011,en,0.5,['Atlanta'],[],[],afternoon,32,2025-10-15T13:41:56.652224Z
+comment_0012,User0012,en,0.5,['Madrid'],[],[],afternoon,36,2025-10-01T13:51:56.652224Z
+comment_0013,User0013,en,0.5,[],['Mexico'],[],afternoon,31,2025-10-03T15:18:56.652224Z
+comment_0014,User0014,en,0.5,['London'],[],[],afternoon,34,2025-09-19T12:30:56.652224Z
+comment_0015,User0015,en,0.5,['New York'],[],[],evening,38,2025-09-21T20:48:56.652224Z
+comment_0016,User0016,en,0.5,['São Paulo'],[],[],morning,37,2025-10-14T08:39:56.652224Z
+comment_0017,User0017,en,0.5,['San Francisco'],[],[],morning,43,2025-09-21T07:36:56.652224Z
+comment_0018,User0018,en,0.5,['Oslo'],[],[],morning,37,2025-09-19T08:55:56.652224Z
+comment_0019,User0019,en,0.5,['Boston'],[],[],evening,34,2025-09-24T19:24:56.652224Z
+comment_0020,User0020,en,0.5,[],[],[],afternoon,8,2025-09-19T14:13:56.652224Z
+comment_0021,User0021,en,0.5,[],[],[],afternoon,19,2025-09-17T16:49:56.652224Z
+comment_0022,User0022,af,0.5,[],['Singapore'],[],evening,39,2025-09-21T18:13:56.652224Z
+comment_0023,User0023,en,0.5,[],[],[],late_night,29,2025-10-10T01:31:56.652224Z
+comment_0024,User0024,en,0.5,[],[],[],evening,16,2025-09-26T18:40:56.652224Z
+comment_0025,User0025,en,0.5,[],[],[],morning,19,2025-09-23T11:01:56.652224Z
+comment_0026,User0026,en,0.5,[],[],[],late_night,8,2025-09-27T02:44:56.652224Z
+comment_0027,User0027,en,0.5,['Toronto'],[],[],morning,36,2025-09-26T06:15:56.652224Z
+comment_0028,User0028,en,0.5,['Seattle'],[],[],morning,35,2025-09-19T07:52:56.652224Z
+comment_0029,User0029,it,0.5,[],[],[],late_night,19,2025-09-28T04:10:56.652224Z
+comment_0030,User0030,en,0.5,[],[],[],afternoon,8,2025-09-23T16:46:56.652224Z
+comment_0031,User0031,en,0.5,['Los Angeles'],[],[],evening,41,2025-09-29T18:05:56.652224Z
+comment_0032,User0032,en,0.5,['Mumbai'],['Netherlands'],[],afternoon,45,2025-09-26T15:50:56.652224Z
+comment_0033,User0033,en,0.5,[],[],[],late_night,19,2025-10-11T02:10:56.652224Z
+comment_0034,User0034,en,0.5,[],['Italy'],[],morning,29,2025-09-19T06:53:56.652224Z
+comment_0035,User0035,en,0.5,[],[],[],late_night,16,2025-09-21T05:57:56.652224Z
+comment_0036,User0036,en,0.5,['Boston'],[],[],morning,31,2025-10-14T10:37:56.652224Z
+comment_0037,User0037,nl,0.5,['Amsterdam'],[],[],afternoon,39,2025-10-03T14:26:56.652224Z
+comment_0038,User0038,en,0.5,[],[],[],evening,29,2025-10-10T19:02:56.652224Z
+comment_0039,User0039,en,0.5,[],['India'],[],evening,30,2025-10-06T20:17:56.652224Z
+comment_0040,User0040,en,0.5,['Stockholm'],['Argentina'],[],late_night,46,2025-09-19T04:40:56.652224Z
+comment_0041,User0041,en,0.5,['Berlin'],[],[],late_night,35,2025-10-15T04:14:56.652224Z
+comment_0042,User0042,en,0.5,[],[],[],late_night,29,2025-10-10T05:55:56.652224Z
+comment_0043,User0043,en,0.5,[],[],[],late_night,27,2025-09-30T05:28:56.652224Z
+comment_0044,User0044,nl,0.5,['Miami'],[],[],morning,35,2025-10-12T11:36:56.652224Z
+comment_0045,User0045,en,0.5,[],[],[],morning,8,2025-09-20T06:44:56.652224Z
+comment_0046,User0046,it,0.5,[],[],[],morning,19,2025-09-28T07:44:56.652224Z
+comment_0047,User0047,en,0.5,['Barcelona'],[],[],evening,34,2025-09-18T20:49:56.652224Z
+comment_0048,User0048,en,0.5,['New York'],[],[],afternoon,38,2025-09-18T13:41:56.652224Z
+comment_0049,User0049,en,0.5,[],['Italy'],[],afternoon,30,2025-09-21T16:10:56.652224Z
+comment_0050,User0050,en,0.5,['Los Angeles'],['Japan'],[],evening,44,2025-09-27T20:14:56.652224Z
+comment_0051,User0051,en,0.5,[],[],[],late_night,8,2025-09-23T05:20:56.652224Z
+comment_0052,User0052,en,0.5,['San Francisco'],[],[],late_night,41,2025-10-14T04:31:56.652224Z
+comment_0053,User0053,en,0.5,[],[],[],evening,16,2025-09-26T18:31:56.652224Z
+comment_0054,User0054,en,0.5,['Dubai'],[],[],evening,35,2025-10-07T20:39:56.652224Z
+comment_0055,User0055,nl,0.5,['Boston'],[],[],afternoon,36,2025-09-29T14:28:56.652224Z
+comment_0056,User0056,en,0.5,[],[],[],morning,8,2025-10-10T08:22:56.652224Z
+comment_0057,User0057,en,0.5,[],['Norway'],[],evening,31,2025-09-21T21:29:56.652224Z
+comment_0058,User0058,it,0.5,[],[],[],afternoon,19,2025-10-03T15:00:56.652224Z
+comment_0059,User0059,en,0.5,['Toronto'],['Brazil'],[],late_night,41,2025-10-10T00:26:56.652224Z
+comment_0060,User0060,en,0.5,[],[],[],afternoon,19,2025-10-12T12:05:56.652224Z
+comment_0061,User0061,nl,0.5,['Miami'],[],[],afternoon,35,2025-09-25T17:06:56.652224Z
+comment_0062,User0062,en,0.5,['Mexico City'],[],[],late_night,44,2025-10-05T00:20:56.652224Z
+comment_0063,User0063,it,0.5,[],[],[],evening,19,2025-10-07T19:00:56.652224Z
+comment_0064,User0064,nl,0.5,['Miami'],[],[],afternoon,35,2025-10-08T13:49:56.652224Z
+comment_0065,User0065,en,0.5,[],[],[],morning,21,2025-09-18T06:24:56.652224Z
+comment_0066,User0066,en,0.5,[],[],[],late_night,16,2025-09-24T00:53:56.652224Z
+comment_0067,User0067,en,0.5,[],['United Kingdom'],[],late_night,38,2025-10-13T05:06:56.652224Z
+comment_0068,User0068,en,0.5,['Tokyo'],['Denmark'],[],late_night,40,2025-10-16T03:51:56.652224Z
+comment_0069,User0069,en,0.5,[],[],[],late_night,19,2025-10-09T02:16:56.652224Z
+comment_0070,User0070,en,0.5,[],['United Kingdom'],[],morning,38,2025-09-24T10:31:56.652224Z
+comment_0071,User0071,en,0.5,[],[],[],morning,16,2025-09-21T06:39:56.652224Z
+comment_0072,User0072,en,0.5,[],['United States'],[],late_night,37,2025-10-18T00:58:56.652224Z
+comment_0073,User0073,en,0.5,[],['France'],[],late_night,30,2025-10-17T01:20:56.652224Z
+comment_0074,User0074,en,0.5,[],[],[],evening,21,2025-10-01T22:54:56.652224Z
+comment_0075,User0075,en,0.5,['Berlin'],[],[],late_night,34,2025-10-15T03:58:56.652224Z
+comment_0076,User0076,en,0.5,[],[],[],evening,21,2025-09-18T21:56:56.652224Z
+comment_0077,User0077,en,0.5,['Buenos Aires'],[],[],late_night,40,2025-10-12T05:20:56.652224Z
+comment_0078,User0078,en,0.5,[],[],[],afternoon,8,2025-09-21T15:53:56.652224Z
+comment_0079,User0079,en,0.5,['Paris'],[],[],afternoon,33,2025-10-02T12:23:56.652224Z
+comment_0080,User0080,en,0.5,['Copenhagen'],[],[],evening,38,2025-09-18T22:04:56.652224Z
+comment_0081,User0081,en,0.5,['Mexico City'],['Finland'],[],late_night,46,2025-09-25T04:09:56.652224Z
+comment_0082,User0082,en,0.5,['Chicago'],[],[],afternoon,36,2025-10-16T15:23:56.652224Z
+comment_0083,User0083,en,0.5,[],['Brazil'],[],evening,30,2025-10-15T19:32:56.652224Z
+comment_0084,User0084,en,0.5,[],[],[],afternoon,8,2025-10-03T14:42:56.652224Z
+comment_0085,User0085,en,0.5,['Atlanta'],[],[],evening,40,2025-10-12T23:14:56.652224Z
+comment_0086,User0086,en,0.5,['Atlanta'],[],[],evening,40,2025-09-18T23:08:56.652224Z
+comment_0087,User0087,it,0.5,[],['Singapore'],[],afternoon,34,2025-10-12T17:53:56.652224Z
+comment_0088,User0088,en,0.5,[],['Sweden'],[],late_night,31,2025-09-19T03:33:56.652224Z
+comment_0089,User0089,en,0.5,['New York'],[],[],morning,38,2025-10-03T07:29:56.652224Z
+comment_0090,User0090,en,0.5,[],['Spain'],[],evening,29,2025-10-01T19:32:56.652224Z
+comment_0091,User0091,en,0.5,['San Francisco'],[],[],morning,46,2025-10-04T08:16:56.652224Z
+comment_0092,User0092,en,0.5,['Los Angeles'],['Germany'],[],afternoon,46,2025-09-20T15:35:56.652224Z
+comment_0093,User0093,en,0.5,['Seattle'],[],[],afternoon,37,2025-09-30T16:34:56.652224Z
+comment_0094,User0094,en,0.5,['Houston'],[],[],morning,37,2025-10-08T11:58:56.652224Z
+comment_0095,User0095,en,0.5,['Los Angeles'],['Japan'],[],morning,44,2025-10-14T10:38:56.652224Z
+comment_0096,User0096,en,0.5,['Atlanta'],[],[],afternoon,36,2025-10-11T17:55:56.652224Z
+comment_0097,User0097,en,0.5,['Rome'],[],[],late_night,32,2025-10-09T01:03:56.652224Z
+comment_0098,User0098,en,0.5,['Copenhagen'],[],[],evening,43,2025-10-02T18:27:56.652224Z
+comment_0099,User0099,en,0.5,[],['Finland'],[],late_night,32,2025-10-12T02:12:56.652224Z
+comment_0100,User0100,en,0.5,[],[],[],evening,23,2025-09-23T23:58:56.652224Z
+comment_0101,User0101,en,0.5,['Rome'],['Italy'],[],late_night,37,2025-10-07T04:28:56.652224Z
+comment_0102,User0102,en,0.5,['Mumbai'],[],[],evening,36,2025-10-14T19:53:56.652224Z
+comment_0103,User0103,en,0.5,['Mexico City'],['Australia'],[],evening,48,2025-10-01T22:19:56.652224Z
+comment_0104,User0104,en,0.5,[],[],[],evening,8,2025-10-01T21:58:56.652224Z
+comment_0105,User0105,en,0.5,['Miami'],[],[],morning,35,2025-09-29T10:23:56.652224Z
+comment_0106,User0106,sv,0.5,['Stockholm'],[],[],evening,34,2025-10-14T18:38:56.652224Z
+comment_0107,User0107,it,0.5,[],[],[],evening,19,2025-09-23T20:35:56.652224Z
+comment_0108,User0108,en,0.5,['Boston'],[],[],afternoon,39,2025-09-22T14:03:56.652224Z
+comment_0109,User0109,en,0.5,[],[],[],late_night,16,2025-09-20T04:22:56.652224Z
+comment_0110,User0110,en,0.5,[],[],[],evening,8,2025-10-10T21:44:56.652224Z
+comment_0111,User0111,en,0.5,['Miami'],[],[],late_night,38,2025-10-12T01:46:56.652224Z
+comment_0112,User0112,en,0.5,[],[],[],morning,16,2025-09-21T11:25:56.652224Z
+comment_0113,User0113,en,0.5,['Copenhagen'],['Argentina'],[],afternoon,47,2025-09-20T14:23:56.652224Z
+comment_0114,User0114,en,0.5,['Barcelona'],[],[],evening,39,2025-10-14T20:00:56.652224Z
+comment_0115,User0115,en,0.5,['Copenhagen'],[],[],evening,39,2025-09-18T19:13:56.652224Z
+comment_0116,User0116,en,0.5,['Mumbai'],[],[],morning,34,2025-09-24T10:19:56.652224Z
+comment_0117,User0117,nl,0.5,['London'],[],[],evening,36,2025-10-03T20:37:56.652224Z
+comment_0118,User0118,en,0.5,['Madrid'],[],[],evening,35,2025-10-17T22:02:56.652224Z
+comment_0119,User0119,en,0.5,['Toronto'],[],[],morning,35,2025-09-26T07:10:56.652224Z
+comment_0120,User0120,en,0.5,[],[],[],late_night,19,2025-10-14T04:52:56.652224Z
+comment_0121,User0121,en,0.5,[],['India'],[],evening,30,2025-09-17T21:07:56.652224Z
+comment_0122,User0122,en,0.5,['Dubai'],[],[],late_night,33,2025-10-17T04:18:56.652224Z
+comment_0123,User0123,en,0.5,['Oslo'],[],[],morning,37,2025-10-03T06:10:56.652224Z
+comment_0124,User0124,en,0.5,[],[],[],late_night,22,2025-10-17T00:21:56.652224Z
+comment_0125,User0125,en,0.5,['Seattle'],[],[],evening,37,2025-09-24T22:15:56.652224Z
+comment_0126,User0126,en,0.5,[],[],[],evening,8,2025-09-21T21:27:56.652224Z
+comment_0127,User0127,en,0.5,[],[],[],late_night,8,2025-09-22T02:28:56.652224Z
+comment_0128,User0128,en,0.5,['Chicago'],['Norway'],[],afternoon,41,2025-09-21T16:20:56.652224Z
+comment_0129,User0129,en,0.5,['Oslo'],[],[],evening,33,2025-10-06T22:43:56.652224Z
+comment_0130,User0130,en,0.5,[],[],[],evening,19,2025-09-17T21:25:56.652224Z
+comment_0131,User0131,en,0.5,[],[],[],morning,8,2025-10-08T09:24:56.652224Z
+comment_0132,User0132,en,0.5,['Paris'],[],[],morning,34,2025-09-27T11:47:56.652224Z
+comment_0133,User0133,pt,0.5,['São Paulo'],[],[],late_night,34,2025-09-25T02:25:56.652224Z
+comment_0134,User0134,en,0.5,['Atlanta'],[],[],morning,32,2025-10-11T11:59:56.652224Z
+comment_0135,User0135,en,0.5,[],[],[],afternoon,25,2025-09-26T16:46:56.652224Z
+comment_0136,User0136,en,0.5,['Austin'],[],[],late_night,36,2025-10-15T05:48:56.652224Z
+comment_0137,User0137,en,0.5,[],[],[],evening,22,2025-10-12T19:42:56.652224Z
+comment_0138,User0138,en,0.5,['Houston'],[],[],late_night,35,2025-09-19T04:55:56.652224Z
+comment_0139,User0139,en,0.5,['Stockholm'],[],[],late_night,37,2025-09-21T01:21:56.652224Z
+comment_0140,User0140,en,0.5,['New York'],[],[],afternoon,38,2025-10-11T15:12:56.652224Z
+comment_0141,User0141,en,0.5,['Madrid'],['Brazil'],[],morning,40,2025-09-18T10:09:56.652224Z
+comment_0142,User0142,en,0.5,[],[],[],evening,29,2025-09-22T23:19:56.652224Z
+comment_0143,User0143,es,0.5,[],[],[],morning,19,2025-09-23T07:23:56.652224Z
+comment_0144,User0144,pt,0.5,['São Paulo'],[],[],evening,34,2025-10-16T21:50:56.652224Z
+comment_0145,User0145,en,0.5,['Buenos Aires'],[],[],afternoon,42,2025-10-17T15:40:56.652224Z
+comment_0146,User0146,en,0.5,[],[],[],late_night,16,2025-10-07T04:45:56.652224Z
+comment_0147,User0147,en,0.5,['Atlanta'],[],[],late_night,37,2025-09-25T01:07:56.652224Z
+comment_0148,User0148,en,0.5,['London'],[],[],late_night,39,2025-10-02T03:16:56.652224Z
+comment_0149,User0149,en,0.5,[],['Sweden'],[],late_night,31,2025-10-01T04:07:56.652224Z
+comment_0150,User0150,en,0.5,[],[],[],late_night,8,2025-09-28T04:01:56.652224Z
+comment_0151,User0151,en,0.5,[],[],[],evening,16,2025-09-17T19:00:56.652224Z
+comment_0152,User0152,es,0.5,[],[],[],evening,19,2025-10-09T21:41:56.652224Z
+comment_0153,User0153,en,0.5,['Tokyo'],[],[],morning,30,2025-09-22T06:09:56.652224Z
+comment_0154,User0154,en,0.5,['São Paulo'],[],[],afternoon,37,2025-10-15T17:31:56.652224Z
+comment_0155,User0155,it,0.5,[],[],[],afternoon,19,2025-10-16T15:10:56.652224Z
+comment_0156,User0156,en,0.5,[],['France'],[],afternoon,31,2025-09-26T17:10:56.652224Z
+comment_0157,User0157,en,0.5,[],[],[],late_night,8,2025-09-18T05:32:56.652224Z
+comment_0158,User0158,en,0.5,['Austin'],[],[],morning,39,2025-10-05T07:18:56.652224Z
+comment_0159,User0159,en,0.5,[],[],[],afternoon,8,2025-10-05T15:13:56.652224Z
+comment_0160,User0160,en,0.5,['Mumbai'],[],[],late_night,31,2025-10-09T01:16:56.652224Z
+comment_0161,User0161,en,0.5,['London'],[],[],evening,39,2025-09-27T22:20:56.652224Z
+comment_0162,User0162,en,0.5,['Seattle'],[],[],evening,35,2025-09-22T18:20:56.652224Z
+comment_0163,User0163,en,0.5,[],['Norway'],[],afternoon,31,2025-09-25T13:32:56.652224Z
+comment_0164,User0164,en,0.5,[],[],[],afternoon,8,2025-09-29T12:33:56.652224Z
+comment_0165,User0165,en,0.5,[],['France'],[],afternoon,30,2025-10-01T14:39:56.652224Z
+comment_0166,User0166,en,0.5,[],[],[],late_night,21,2025-10-03T02:25:56.652224Z
+comment_0167,User0167,it,0.5,['Toronto'],[],[],morning,32,2025-09-22T08:26:56.652224Z
+comment_0168,User0168,en,0.5,[],[],[],late_night,8,2025-10-04T05:29:56.652224Z
+comment_0169,User0169,en,0.5,[],['Germany'],[],late_night,31,2025-09-26T02:26:56.652224Z
+comment_0170,User0170,en,0.5,[],[],[],morning,16,2025-09-23T09:36:56.652224Z
+comment_0171,User0171,it,0.5,[],[],[],afternoon,19,2025-09-24T12:51:56.652224Z
+comment_0172,User0172,en,0.5,['Oslo'],[],[],evening,34,2025-10-07T22:54:56.652224Z
+comment_0173,User0173,en,0.5,[],[],[],late_night,25,2025-09-20T04:14:56.652224Z
+comment_0174,User0174,en,0.5,[],[],[],evening,8,2025-09-23T23:09:56.652224Z
+comment_0175,User0175,af,0.5,['Dubai'],[],[],evening,35,2025-10-06T18:56:56.652224Z
+comment_0176,User0176,pt,0.5,[],['Canada'],[],late_night,31,2025-10-11T04:09:56.652224Z
+comment_0177,User0177,en,0.5,[],[],[],late_night,19,2025-10-07T04:07:56.652224Z
+comment_0178,User0178,en,0.5,[],[],[],late_night,22,2025-09-19T02:45:56.652224Z
+comment_0179,User0179,no,0.5,['Oslo'],[],[],late_night,29,2025-09-18T02:41:56.652224Z
+comment_0180,User0180,it,0.5,[],[],[],afternoon,19,2025-10-14T16:47:56.652224Z
+comment_0181,User0181,da,0.5,['Sydney'],[],[],late_night,31,2025-10-13T05:45:56.652224Z
+comment_0182,User0182,pt,0.5,['São Paulo'],[],[],late_night,34,2025-09-28T05:27:56.652224Z
+comment_0183,User0183,en,0.5,['Oslo'],[],[],afternoon,34,2025-09-22T16:07:56.652224Z
+comment_0184,User0184,en,0.5,[],[],[],late_night,21,2025-10-04T00:16:56.652224Z
+comment_0185,User0185,en,0.5,[],[],[],late_night,8,2025-09-22T03:46:56.652224Z
+comment_0186,User0186,en,0.5,[],[],[],afternoon,16,2025-09-26T12:03:56.652224Z
+comment_0187,User0187,en,0.5,['Atlanta'],[],[],late_night,32,2025-10-05T05:52:56.652224Z
+comment_0188,User0188,en,0.5,['Rome'],[],[],morning,33,2025-09-17T11:47:56.652224Z
+comment_0189,User0189,en,0.5,[],['United Kingdom'],[],morning,38,2025-09-20T09:42:56.652224Z
+comment_0190,User0190,en,0.5,[],['United Kingdom'],[],evening,39,2025-10-02T20:33:56.652224Z
+comment_0191,User0191,en,0.5,['Copenhagen'],[],[],afternoon,40,2025-09-24T13:52:56.652224Z
+comment_0192,User0192,en,0.5,['New York'],[],[],afternoon,37,2025-09-29T16:58:56.652224Z
+comment_0193,User0193,en,0.5,[],[],[],late_night,23,2025-10-06T00:18:56.652224Z
+comment_0194,User0194,en,0.5,['Dubai'],[],[],late_night,30,2025-09-20T03:15:56.652224Z
+comment_0195,User0195,en,0.5,[],[],[],afternoon,16,2025-10-13T12:20:56.652224Z
+comment_0196,User0196,en,0.5,['Copenhagen'],[],[],morning,38,2025-10-05T11:23:56.652224Z
+comment_0197,User0197,en,0.5,['Sydney'],[],[],afternoon,39,2025-09-19T12:04:56.652224Z
+comment_0198,User0198,en,0.5,['Paris'],['Denmark'],[],evening,40,2025-09-19T23:12:56.652224Z
+comment_0199,User0199,no,0.5,[],['Denmark'],[],evening,32,2025-10-10T21:11:56.652224Z
+comment_0200,User0200,en,0.5,[],[],[],morning,19,2025-09-24T11:51:56.652224Z
+comment_0201,User0201,en,0.5,['Sydney'],[],[],morning,35,2025-09-24T10:47:56.652224Z
+comment_0202,User0202,en,0.5,['San Francisco'],[],[],late_night,43,2025-10-01T03:50:56.652224Z
+comment_0203,User0203,en,0.5,['Copenhagen'],['Mexico'],[],morning,44,2025-09-28T09:42:56.652224Z
+comment_0204,User0204,af,0.5,[],['Sweden'],[],morning,30,2025-10-17T09:46:56.652224Z
+comment_0205,User0205,en,0.5,['Austin'],[],[],afternoon,34,2025-09-30T14:46:56.652224Z
+comment_0206,User0206,en,0.5,['Chicago'],[],[],morning,40,2025-10-05T09:24:56.652224Z
+comment_0207,User0207,en,0.5,[],[],[],evening,16,2025-10-10T22:27:56.652224Z
+comment_0208,User0208,en,0.5,['Mexico City'],[],[],evening,44,2025-09-24T19:34:56.652224Z
+comment_0209,User0209,en,0.5,[],[],[],late_night,16,2025-10-04T05:53:56.652224Z
+comment_0210,User0210,en,0.5,[],['Singapore'],[],late_night,34,2025-09-30T01:45:56.652224Z
+comment_0211,User0211,en,0.5,[],['Finland'],[],morning,32,2025-09-26T10:24:56.652224Z
+comment_0212,User0212,it,0.5,[],[],[],late_night,19,2025-09-18T04:47:56.652224Z
+comment_0213,User0213,en,0.5,[],[],[],morning,16,2025-10-12T06:37:56.652224Z
+comment_0214,User0214,en,0.5,['Berlin'],[],[],afternoon,35,2025-10-17T12:45:56.652224Z
+comment_0215,User0215,en,0.5,[],['Australia'],[],afternoon,33,2025-10-10T13:21:56.652224Z
+comment_0216,User0216,en,0.5,[],[],[],evening,8,2025-10-06T21:57:56.652224Z
+comment_0217,User0217,en,0.5,[],[],[],evening,16,2025-10-09T22:18:56.652224Z
+comment_0218,User0218,en,0.5,[],[],[],morning,8,2025-10-11T11:44:56.652224Z
+comment_0219,User0219,en,0.5,[],[],[],evening,22,2025-09-29T19:04:56.652224Z
+comment_0220,User0220,en,0.5,['Rome'],[],[],afternoon,32,2025-09-18T13:57:56.652224Z
+comment_0221,User0221,en,0.5,['Buenos Aires'],[],[],morning,40,2025-10-02T08:24:56.652224Z
+comment_0222,User0222,en,0.5,['Berlin'],['Japan'],[],evening,39,2025-09-30T18:16:56.652224Z
+comment_0223,User0223,en,0.5,['Houston'],[],[],morning,35,2025-09-22T09:25:56.652224Z
+comment_0224,User0224,en,0.5,['Toronto'],['France'],[],afternoon,41,2025-09-26T15:43:56.652224Z
+comment_0225,User0225,en,0.5,[],[],[],late_night,19,2025-10-11T04:01:56.652224Z
+comment_0226,User0226,en,0.5,[],['Singapore'],[],morning,33,2025-10-08T07:51:56.652224Z
+comment_0227,User0227,en,0.5,[],['United States'],[],morning,38,2025-10-11T07:56:56.652224Z
+comment_0228,User0228,it,0.5,[],[],[],late_night,19,2025-10-16T01:15:56.652224Z
+comment_0229,User0229,en,0.5,[],[],[],afternoon,16,2025-09-19T15:08:56.652224Z
+comment_0230,User0230,en,0.5,['Toronto'],[],[],afternoon,37,2025-09-24T13:44:56.652224Z
+comment_0231,User0231,no,0.5,[],['Denmark'],[],afternoon,32,2025-09-23T12:26:56.652224Z
+comment_0232,User0232,en,0.5,[],['Brazil'],[],afternoon,30,2025-10-17T14:01:56.652224Z
+comment_0233,User0233,en,0.5,[],[],[],afternoon,19,2025-10-02T17:57:56.652224Z
+comment_0234,User0234,en,0.5,['Austin'],[],[],morning,31,2025-09-18T08:57:56.652224Z
+comment_0235,User0235,en,0.5,['Madrid'],[],[],evening,35,2025-09-27T22:49:56.652224Z
+comment_0236,User0236,en,0.5,['Rome'],[],[],morning,33,2025-10-10T11:50:56.652224Z
+comment_0237,User0237,en,0.5,['Austin'],[],[],morning,34,2025-09-21T09:16:56.652224Z
+comment_0238,User0238,nl,0.5,['Los Angeles'],[],[],morning,41,2025-09-25T07:47:56.652224Z
+comment_0239,User0239,it,0.5,[],[],[],afternoon,19,2025-09-26T13:29:56.652224Z
+comment_0240,User0240,it,0.5,[],[],[],morning,19,2025-10-03T08:08:56.652224Z
+comment_0241,User0241,en,0.5,['Copenhagen'],[],[],late_night,39,2025-10-03T05:48:56.652224Z
+comment_0242,User0242,en,0.5,['Toronto'],['Netherlands'],[],late_night,46,2025-10-13T00:59:56.652224Z
+comment_0243,User0243,it,0.5,[],[],[],evening,19,2025-09-17T20:57:56.652224Z
+comment_0244,User0244,en,0.5,[],[],[],afternoon,8,2025-09-18T13:46:56.652224Z
+comment_0245,User0245,en,0.5,[],[],[],morning,25,2025-09-24T10:21:56.652224Z
+comment_0246,User0246,en,0.5,['Mumbai'],[],[],late_night,35,2025-10-17T03:12:56.652224Z
+comment_0247,User0247,en,0.5,['Toronto'],[],[],morning,37,2025-10-05T08:23:56.652224Z
+comment_0248,User0248,en,0.5,[],[],[],morning,16,2025-09-26T09:30:56.652224Z
+comment_0249,User0249,it,0.5,[],[],[],late_night,19,2025-09-27T00:13:56.652224Z
+comment_0250,User0250,en,0.5,['Oslo'],[],[],late_night,32,2025-10-12T00:41:56.652224Z
+comment_0251,User0251,en,0.5,['Miami'],['India'],[],late_night,38,2025-09-24T00:08:56.652224Z
+comment_0252,User0252,it,0.5,['Boston'],[],[],late_night,31,2025-09-23T02:38:56.652224Z
+comment_0253,User0253,it,0.5,[],[],[],evening,19,2025-09-24T18:15:56.652224Z
+comment_0254,User0254,en,0.5,[],['Italy'],[],afternoon,30,2025-10-12T13:52:56.652224Z
+comment_0255,User0255,en,0.5,['Mexico City'],[],[],late_night,44,2025-10-11T02:28:56.652224Z
+comment_0256,User0256,en,0.5,[],['Sweden'],[],evening,31,2025-10-15T22:39:56.652224Z
+comment_0257,User0257,en,0.5,['Seattle'],[],[],afternoon,37,2025-09-27T12:17:56.652224Z
+comment_0258,User0258,en,0.5,[],['Singapore'],[],evening,34,2025-10-09T19:24:56.652224Z
+comment_0259,User0259,da,0.5,['Sydney'],[],[],afternoon,31,2025-09-18T15:19:56.652224Z
+comment_0260,User0260,en,0.5,[],[],[],late_night,16,2025-09-22T05:22:56.652224Z
+comment_0261,User0261,en,0.5,['Stockholm'],[],[],late_night,39,2025-09-23T03:57:56.652224Z
+comment_0262,User0262,en,0.5,[],[],[],afternoon,21,2025-10-11T15:02:56.652224Z
+comment_0263,User0263,en,0.5,[],[],[],late_night,21,2025-10-11T01:46:56.652224Z
+comment_0264,User0264,en,0.5,['Los Angeles'],[],[],evening,44,2025-10-11T22:34:56.652224Z
+comment_0265,User0265,en,0.5,[],['Mexico'],[],evening,30,2025-09-25T19:39:56.652224Z
+comment_0266,User0266,en,0.5,[],['United States'],[],late_night,38,2025-10-14T00:42:56.652224Z
+comment_0267,User0267,en,0.5,['Copenhagen'],['Italy'],[],afternoon,43,2025-09-21T13:04:56.652224Z
+comment_0268,User0268,en,0.5,['Tokyo'],[],[],afternoon,38,2025-10-01T15:14:56.652224Z
+comment_0269,User0269,nl,0.5,['San Francisco'],[],[],evening,43,2025-10-11T23:16:56.652224Z
+comment_0270,User0270,en,0.5,['Toronto'],[],[],evening,37,2025-10-15T18:19:56.652224Z
+comment_0271,User0271,en,0.5,[],[],[],morning,8,2025-09-24T07:13:56.652224Z
+comment_0272,User0272,en,0.5,[],[],[],evening,21,2025-10-08T18:16:56.652224Z
+comment_0273,User0273,en,0.5,[],['Singapore'],[],evening,34,2025-09-23T20:42:56.652224Z
+comment_0274,User0274,en,0.5,['Atlanta'],['Denmark'],[],afternoon,42,2025-09-25T13:57:56.652224Z
+comment_0275,User0275,en,0.5,['Atlanta'],[],[],evening,38,2025-10-07T22:45:56.652224Z
+comment_0276,User0276,en,0.5,['Sydney'],[],[],late_night,36,2025-09-28T01:21:56.652224Z
+comment_0277,User0277,en,0.5,[],['Netherlands'],[],evening,36,2025-10-13T18:19:56.652224Z
+comment_0278,User0278,en,0.5,[],[],[],morning,23,2025-10-03T06:55:56.652224Z
+comment_0279,User0279,en,0.5,['São Paulo'],[],[],evening,39,2025-09-28T22:02:56.652224Z
+comment_0280,User0280,en,0.5,['Stockholm'],[],[],morning,38,2025-10-15T08:34:56.652224Z
+comment_0281,User0281,en,0.5,[],[],[],evening,22,2025-10-14T21:52:56.652224Z
+comment_0282,User0282,en,0.5,[],['Spain'],[],evening,30,2025-09-30T20:49:56.652224Z
+comment_0283,User0283,en,0.5,['Buenos Aires'],[],[],evening,41,2025-09-27T21:21:56.652224Z
+comment_0284,User0284,it,0.5,['London'],[],[],afternoon,31,2025-10-04T12:28:56.652224Z
+comment_0285,User0285,it,0.5,[],[],[],afternoon,19,2025-09-27T15:00:56.652224Z
+comment_0286,User0286,en,0.5,[],[],[],afternoon,19,2025-10-01T15:09:56.652224Z
+comment_0287,User0287,en,0.5,[],['Sweden'],[],morning,31,2025-09-22T06:45:56.652224Z
+comment_0288,User0288,en,0.5,[],['India'],[],evening,29,2025-09-30T22:59:56.652224Z
+comment_0289,User0289,no,0.5,[],['Denmark'],[],afternoon,32,2025-09-25T13:35:56.652224Z
+comment_0290,User0290,en,0.5,['Houston'],[],[],afternoon,37,2025-10-17T15:33:56.652224Z
+comment_0291,User0291,it,0.5,[],[],[],afternoon,19,2025-09-18T12:11:56.652224Z
+comment_0292,User0292,en,0.5,['Houston'],['Denmark'],[],morning,42,2025-10-08T07:31:56.652224Z
+comment_0293,User0293,en,0.5,['Mexico City'],[],[],morning,40,2025-10-08T07:14:56.652224Z
+comment_0294,User0294,en,0.5,[],[],[],late_night,19,2025-10-04T03:16:56.652224Z
+comment_0295,User0295,en,0.5,['Tokyo'],['Brazil'],[],morning,39,2025-10-01T08:05:56.652224Z
+comment_0296,User0296,en,0.5,[],[],[],evening,22,2025-10-07T23:31:56.652224Z
+comment_0297,User0297,en,0.5,[],['Finland'],[],evening,32,2025-10-12T18:12:56.652224Z
+comment_0298,User0298,en,0.5,[],[],[],afternoon,8,2025-09-21T15:33:56.652224Z
+comment_0299,User0299,en,0.5,[],[],[],afternoon,23,2025-10-07T12:34:56.652224Z
+comment_0300,User0300,en,0.5,[],[],[],late_night,16,2025-10-08T01:40:56.652224Z
+comment_0301,User0301,da,0.5,['Copenhagen'],[],[],morning,35,2025-09-24T06:18:56.652224Z
+comment_0302,User0302,en,0.5,['Dubai'],[],[],evening,30,2025-10-17T21:51:56.652224Z
+comment_0303,User0303,en,0.5,[],[],[],evening,19,2025-10-08T20:37:56.652224Z
+comment_0304,User0304,en,0.5,[],[],[],evening,8,2025-10-17T22:17:56.652224Z
+comment_0305,User0305,en,0.5,[],[],[],evening,16,2025-10-12T22:02:56.652224Z
+comment_0306,User0306,af,0.5,[],[],[],late_night,27,2025-10-14T00:12:56.652224Z
+comment_0307,User0307,en,0.5,['Seattle'],[],[],afternoon,36,2025-10-10T13:46:56.652224Z
+comment_0308,User0308,it,0.5,[],[],[],afternoon,19,2025-10-02T17:10:56.652224Z
+comment_0309,User0309,en,0.5,[],['Italy'],[],evening,29,2025-09-25T22:29:56.652224Z
+comment_0310,User0310,af,0.5,[],['Denmark'],[],morning,31,2025-09-25T06:07:56.652224Z
+comment_0311,User0311,en,0.5,[],['France'],[],evening,31,2025-09-24T23:23:56.652224Z
+comment_0312,User0312,it,0.5,['Rome'],[],[],late_night,29,2025-10-18T01:34:56.652224Z
+comment_0313,User0313,it,0.5,['Rome'],[],[],evening,29,2025-10-04T18:56:56.652224Z
+comment_0314,User0314,en,0.5,['Dubai'],[],[],evening,35,2025-09-27T22:37:56.652224Z
+comment_0315,User0315,en,0.5,[],['Spain'],[],morning,30,2025-10-11T06:25:56.652224Z
+comment_0316,User0316,en,0.5,['Buenos Aires'],[],[],evening,42,2025-09-28T18:27:56.652224Z
+comment_0317,User0317,en,0.5,['Miami'],[],[],afternoon,35,2025-09-19T16:38:56.652224Z
+comment_0318,User0318,en,0.5,[],[],[],evening,21,2025-10-13T22:47:56.652224Z
+comment_0319,User0319,en,0.5,[],[],[],evening,8,2025-09-18T23:31:56.652224Z
+comment_0320,User0320,en,0.5,[],[],[],late_night,19,2025-09-30T03:26:56.652224Z
+comment_0321,User0321,en,0.5,['Amsterdam'],[],[],afternoon,37,2025-10-10T12:22:56.652224Z
+comment_0322,User0322,en,0.5,[],[],[],morning,25,2025-09-19T11:25:56.652224Z
+comment_0323,User0323,en,0.5,[],[],[],evening,19,2025-09-28T20:44:56.652224Z
+comment_0324,User0324,en,0.5,['Sydney'],[],[],evening,36,2025-09-30T21:51:56.652224Z
+comment_0325,User0325,en,0.5,[],[],[],evening,21,2025-09-24T22:52:56.652224Z
+comment_0326,User0326,en,0.5,[],[],[],afternoon,19,2025-09-17T14:48:56.652224Z
+comment_0327,User0327,en,0.5,[],['Singapore'],[],afternoon,39,2025-10-13T16:53:56.652224Z
+comment_0328,User0328,en,0.5,['Atlanta'],[],[],late_night,35,2025-09-25T05:21:56.652224Z
+comment_0329,User0329,en,0.5,[],['Australia'],[],evening,33,2025-09-24T20:15:56.652224Z
+comment_0330,User0330,en,0.5,['Austin'],['Argentina'],[],afternoon,43,2025-10-11T12:06:56.652224Z
+comment_0331,User0331,en,0.5,[],['Japan'],[],morning,30,2025-10-02T06:27:56.652224Z
+comment_0332,User0332,en,0.5,[],[],[],morning,8,2025-09-30T10:09:56.652224Z
+comment_0333,User0333,en,0.5,[],"['Singapore', 'Italy']",[],morning,42,2025-10-17T11:45:56.652224Z
+comment_0334,User0334,en,0.5,[],[],[],late_night,8,2025-09-19T05:18:56.652224Z
+comment_0335,User0335,en,0.5,['Chicago'],[],[],morning,37,2025-10-17T06:35:56.652224Z
+comment_0336,User0336,en,0.5,['Mexico City'],['Canada'],[],afternoon,45,2025-10-04T12:33:56.652224Z
+comment_0337,User0337,en,0.5,['Tokyo'],['Netherlands'],[],evening,44,2025-10-03T20:17:56.652224Z
+comment_0338,User0338,nl,0.5,['Amsterdam'],[],[],evening,39,2025-10-03T18:23:56.652224Z
+comment_0339,User0339,en,0.5,[],[],[],evening,19,2025-09-17T18:47:56.652224Z
+comment_0340,User0340,en,0.5,[],['Japan'],[],morning,30,2025-10-01T11:06:56.652224Z
+comment_0341,User0341,en,0.5,['Boston'],[],[],afternoon,36,2025-10-17T16:23:56.652224Z
+comment_0342,User0342,en,0.5,[],"['Singapore', 'Netherlands']",[],afternoon,48,2025-09-28T17:45:56.652224Z
+comment_0343,User0343,en,0.5,['Austin'],[],[],morning,31,2025-09-24T11:22:56.652224Z
+comment_0344,User0344,it,0.5,[],[],[],evening,19,2025-10-08T23:58:56.652224Z
+comment_0345,User0345,en,0.5,['Atlanta'],[],[],late_night,40,2025-10-05T03:58:56.652224Z
+comment_0346,User0346,en,0.5,['Toronto'],[],[],late_night,36,2025-09-30T00:13:56.652224Z
+comment_0347,User0347,en,0.5,['Barcelona'],[],[],late_night,42,2025-10-05T03:38:56.652224Z
+comment_0348,User0348,en,0.5,[],[],[],late_night,23,2025-09-26T05:30:56.652224Z
+comment_0349,User0349,en,0.5,[],[],[],evening,16,2025-09-30T19:05:56.652224Z
+comment_0350,User0350,en,0.5,['Dubai'],[],[],afternoon,33,2025-10-06T15:37:56.652224Z
+comment_0351,User0351,en,0.5,['São Paulo'],[],[],evening,38,2025-10-15T18:04:56.652224Z
+comment_0352,User0352,en,0.5,['New York'],[],[],morning,38,2025-10-14T10:46:56.652224Z
+comment_0353,User0353,pt,0.5,['São Paulo'],['Mexico'],[],evening,43,2025-10-12T20:07:56.652224Z
+comment_0354,User0354,en,0.5,['Mumbai'],[],[],afternoon,35,2025-10-02T13:53:56.652224Z
+comment_0355,User0355,en,0.5,[],[],[],afternoon,19,2025-09-26T14:17:56.652224Z
+comment_0356,User0356,en,0.5,['Los Angeles'],[],[],afternoon,40,2025-10-15T17:45:56.652224Z
+comment_0357,User0357,en,0.5,[],[],[],morning,19,2025-10-18T07:59:56.652224Z
+comment_0358,User0358,en,0.5,[],[],[],late_night,19,2025-10-02T00:58:56.652224Z
+comment_0359,User0359,en,0.5,['Miami'],[],[],late_night,34,2025-10-14T01:13:56.652224Z
+comment_0360,User0360,en,0.5,[],['Australia'],[],morning,34,2025-09-27T07:24:56.652224Z
+comment_0361,User0361,it,0.5,['Toronto'],[],[],late_night,32,2025-09-27T04:53:56.652224Z
+comment_0362,User0362,nl,0.5,['San Francisco'],[],[],afternoon,43,2025-10-10T16:52:56.652224Z
+comment_0363,User0363,af,0.5,['Oslo'],[],[],late_night,34,2025-10-11T05:11:56.652224Z
+comment_0364,User0364,en,0.5,[],['Australia'],[],evening,33,2025-10-15T23:00:56.652224Z
+comment_0365,User0365,en,0.5,['London'],[],[],late_night,35,2025-10-11T03:57:56.652224Z
+comment_0366,User0366,en,0.5,['Chicago'],[],[],evening,36,2025-10-02T19:24:56.652224Z
+comment_0367,User0367,en,0.5,['São Paulo'],[],[],evening,42,2025-10-09T22:17:56.652224Z
+comment_0368,User0368,en,0.5,[],['United States'],[],evening,38,2025-10-15T23:36:56.652224Z
+comment_0369,User0369,en,0.5,['London'],[],[],afternoon,35,2025-10-12T16:09:56.652224Z
+comment_0370,User0370,en,0.5,['Amsterdam'],[],[],afternoon,37,2025-10-08T15:41:56.652224Z
+comment_0371,User0371,en,0.5,['Barcelona'],[],[],morning,38,2025-10-02T06:25:56.652224Z
+comment_0372,User0372,en,0.5,['Seattle'],['Spain'],[],late_night,40,2025-09-22T05:51:56.652224Z
+comment_0373,User0373,en,0.5,['Toronto'],[],[],late_night,35,2025-09-24T02:30:56.652224Z
+comment_0374,User0374,en,0.5,[],['United States'],[],evening,38,2025-10-04T20:53:56.652224Z
+comment_0375,User0375,en,0.5,['Copenhagen'],[],[],evening,40,2025-09-17T22:53:56.652224Z
+comment_0376,User0376,en,0.5,['San Francisco'],[],[],evening,46,2025-10-14T18:34:56.652224Z
+comment_0377,User0377,en,0.5,['Rome'],[],[],morning,32,2025-10-13T09:50:56.652224Z
+comment_0378,User0378,en,0.5,['Copenhagen'],[],[],evening,39,2025-10-16T20:45:56.652224Z
+comment_0379,User0379,en,0.5,[],[],[],morning,22,2025-10-10T08:24:56.652224Z
+comment_0380,User0380,en,0.5,['Boston'],[],[],morning,39,2025-10-02T06:15:56.652224Z
+comment_0381,User0381,en,0.5,[],[],[],morning,28,2025-10-08T10:04:56.652224Z
+comment_0382,User0382,en,0.5,[],['Germany'],[],afternoon,31,2025-09-18T12:29:56.652224Z
+comment_0383,User0383,en,0.5,[],['Japan'],[],afternoon,29,2025-10-12T12:04:56.652224Z
+comment_0384,User0384,en,0.5,[],[],[],late_night,8,2025-10-17T01:59:56.652224Z
+comment_0385,User0385,en,0.5,['San Francisco'],[],[],late_night,42,2025-10-18T01:42:56.652224Z
+comment_0386,User0386,en,0.5,['Berlin'],[],[],late_night,34,2025-09-24T00:21:56.652224Z
+comment_0387,User0387,en,0.5,['Madrid'],[],[],evening,36,2025-09-21T19:12:56.652224Z
+comment_0388,User0388,en,0.5,[],[],[],afternoon,21,2025-10-11T17:57:56.652224Z
+comment_0389,User0389,en,0.5,[],[],[],late_night,16,2025-09-26T05:20:56.652224Z
+comment_0390,User0390,en,0.5,['Amsterdam'],[],[],late_night,42,2025-10-03T02:54:56.652224Z
+comment_0391,User0391,en,0.5,['Oslo'],['Germany'],[],late_night,39,2025-10-10T05:42:56.652224Z
+comment_0392,User0392,en,0.5,['Houston'],[],[],morning,40,2025-09-26T07:40:56.652224Z
+comment_0393,User0393,en,0.5,[],[],[],morning,19,2025-10-05T08:52:56.652224Z
+comment_0394,User0394,en,0.5,[],[],[],morning,19,2025-09-26T10:13:56.652224Z
+comment_0395,User0395,en,0.5,[],[],[],late_night,16,2025-09-30T05:10:56.652224Z
+comment_0396,User0396,en,0.5,['Tokyo'],[],[],evening,30,2025-10-13T18:34:56.652224Z
+comment_0397,User0397,en,0.5,['Oslo'],['Finland'],[],morning,39,2025-09-22T08:58:56.652224Z
+comment_0398,User0398,en,0.5,['Rome'],[],[],late_night,32,2025-10-13T04:20:56.652224Z
+comment_0399,User0399,it,0.5,[],[],[],afternoon,19,2025-10-17T12:38:56.652224Z
+comment_0400,User0400,en,0.5,['Berlin'],[],[],late_night,31,2025-10-04T04:41:56.652224Z
+comment_0401,User0401,en,0.5,[],[],[],morning,8,2025-09-30T07:18:56.652224Z
+comment_0402,User0402,en,0.5,['Barcelona'],[],[],morning,39,2025-10-14T06:19:56.652224Z
+comment_0403,User0403,en,0.5,['Mexico City'],[],[],evening,39,2025-10-14T19:18:56.652224Z
+comment_0404,User0404,en,0.5,[],[],[],late_night,8,2025-10-08T04:37:56.652224Z
+comment_0405,User0405,af,0.5,['Atlanta'],[],[],morning,37,2025-09-18T08:52:56.652224Z
+comment_0406,User0406,en,0.5,[],[],[],late_night,16,2025-09-28T05:22:56.652224Z
+comment_0407,User0407,en,0.5,[],[],[],morning,21,2025-10-01T10:17:56.652224Z
+comment_0408,User0408,en,0.5,['Houston'],[],[],evening,37,2025-10-06T20:49:56.652224Z
+comment_0409,User0409,es,0.5,[],[],[],late_night,19,2025-10-11T05:28:56.652224Z
+comment_0410,User0410,en,0.5,[],[],[],late_night,23,2025-09-30T01:32:56.652224Z
+comment_0411,User0411,en,0.5,[],[],[],morning,19,2025-09-28T10:56:56.652224Z
+comment_0412,User0412,en,0.5,[],[],[],late_night,19,2025-09-23T02:51:56.652224Z
+comment_0413,User0413,en,0.5,['Los Angeles'],[],[],morning,40,2025-09-22T09:02:56.652224Z
+comment_0414,User0414,en,0.5,['Helsinki'],['Mexico'],[],evening,42,2025-09-24T18:50:56.652224Z
+comment_0415,User0415,it,0.5,['Boston'],[],[],afternoon,31,2025-09-17T17:54:56.652224Z
+comment_0416,User0416,en,0.5,[],[],[],morning,19,2025-10-14T06:05:56.652224Z
+comment_0417,User0417,en,0.5,[],[],[],afternoon,8,2025-09-19T14:08:56.652224Z
+comment_0418,User0418,en,0.5,[],[],[],evening,8,2025-10-06T19:36:56.652224Z
+comment_0419,User0419,en,0.5,['Berlin'],[],[],afternoon,36,2025-09-18T15:02:56.652224Z
+comment_0420,User0420,en,0.5,[],[],[],afternoon,8,2025-09-17T17:28:56.652224Z
+comment_0421,User0421,en,0.5,['San Francisco'],[],[],morning,41,2025-10-08T10:25:56.652224Z
+comment_0422,User0422,en,0.5,[],[],[],evening,19,2025-09-26T23:52:56.652224Z
+comment_0423,User0423,en,0.5,['Houston'],[],[],evening,35,2025-09-18T19:25:56.652224Z
+comment_0424,User0424,en,0.5,['Sydney'],[],[],evening,39,2025-10-03T20:09:56.652224Z
+comment_0425,User0425,en,0.5,[],[],[],late_night,21,2025-10-18T02:22:56.652224Z
+comment_0426,User0426,en,0.5,['Tokyo'],[],[],evening,30,2025-09-28T18:11:56.652224Z
+comment_0427,User0427,en,0.5,[],['United Kingdom'],[],morning,39,2025-10-07T09:43:56.652224Z
+comment_0428,User0428,en,0.5,['Seattle'],[],[],evening,35,2025-10-15T22:16:56.652224Z
+comment_0429,User0429,en,0.5,['Miami'],[],[],late_night,33,2025-10-06T03:27:56.652224Z
+comment_0430,User0430,it,0.5,['San Francisco'],[],[],evening,38,2025-09-23T20:54:56.652224Z
+comment_0431,User0431,en,0.5,[],[],[],late_night,22,2025-09-23T05:22:56.652224Z
+comment_0432,User0432,en,0.5,[],"['Singapore', 'Norway']",[],late_night,43,2025-09-26T04:49:56.652224Z
+comment_0433,User0433,en,0.5,[],[],[],late_night,8,2025-10-15T04:26:56.652224Z
+comment_0434,User0434,da,0.5,['Amsterdam'],[],[],late_night,34,2025-09-23T00:18:56.652224Z
+comment_0435,User0435,en,0.5,['Mexico City'],[],[],morning,41,2025-10-14T11:45:56.652224Z
+comment_0436,User0436,en,0.5,[],[],[],morning,19,2025-09-22T11:03:56.652224Z
+comment_0437,User0437,en,0.5,[],[],[],evening,16,2025-10-15T21:58:56.652224Z
+comment_0438,User0438,pt,0.5,['São Paulo'],[],[],evening,34,2025-10-10T19:49:56.652224Z
+comment_0439,User0439,af,0.5,['Atlanta'],[],[],afternoon,37,2025-09-17T13:55:56.652224Z
+comment_0440,User0440,en,0.5,[],[],[],late_night,8,2025-10-05T05:48:56.652224Z
+comment_0441,User0441,en,0.5,['Miami'],[],[],evening,35,2025-09-23T19:53:56.652224Z
+comment_0442,User0442,en,0.5,['Seattle'],[],[],evening,40,2025-10-17T21:47:56.652224Z
+comment_0443,User0443,en,0.5,['Tokyo'],[],[],afternoon,35,2025-10-12T15:07:56.652224Z
+comment_0444,User0444,en,0.5,['Boston'],[],[],evening,35,2025-10-16T22:42:56.652224Z
+comment_0445,User0445,en,0.5,['Berlin'],['Canada'],[],morning,40,2025-09-18T09:03:56.652224Z
+comment_0446,User0446,en,0.5,['São Paulo'],[],[],morning,37,2025-10-15T06:58:56.652224Z
+comment_0447,User0447,no,0.5,[],['Denmark'],[],late_night,32,2025-10-15T03:31:56.652224Z
+comment_0448,User0448,en,0.5,['Rome'],[],[],morning,29,2025-09-26T10:50:56.652224Z
+comment_0449,User0449,en,0.5,[],[],[],morning,21,2025-10-14T06:45:56.652224Z
+comment_0450,User0450,en,0.5,['Dubai'],[],[],late_night,35,2025-10-18T02:57:56.652224Z
+comment_0451,User0451,en,0.5,[],['India'],[],evening,29,2025-10-15T20:52:56.652224Z
+comment_0452,User0452,en,0.5,[],[],[],afternoon,8,2025-09-30T17:12:56.652224Z
+comment_0453,User0453,en,0.5,[],[],[],late_night,16,2025-10-09T03:09:56.652224Z
+comment_0454,User0454,en,0.5,['Buenos Aires'],[],[],evening,41,2025-09-26T20:10:56.652224Z
+comment_0455,User0455,it,0.5,[],['Brazil'],[],afternoon,31,2025-09-19T16:31:56.652224Z
+comment_0456,User0456,en,0.5,['Berlin'],[],[],late_night,34,2025-10-10T05:26:56.652224Z
+comment_0457,User0457,en,0.5,['Berlin'],['United Kingdom'],[],late_night,48,2025-10-14T05:14:56.652224Z
+comment_0458,User0458,en,0.5,[],[],[],late_night,8,2025-10-04T03:55:56.652224Z
+comment_0459,User0459,en,0.5,[],[],[],late_night,8,2025-09-25T04:43:56.652224Z
+comment_0460,User0460,en,0.5,[],[],[],evening,16,2025-09-21T22:30:56.652224Z
+comment_0461,User0461,en,0.5,['Stockholm'],[],[],morning,39,2025-10-04T11:47:56.652224Z
+comment_0462,User0462,da,0.5,['Helsinki'],[],[],morning,33,2025-09-26T11:39:56.652224Z
+comment_0463,User0463,en,0.5,['Buenos Aires'],['Argentina'],[],afternoon,49,2025-10-09T16:50:56.652224Z
+comment_0464,User0464,en,0.5,['Mumbai'],[],[],evening,39,2025-10-10T19:00:56.652224Z
+comment_0465,User0465,it,0.5,[],[],[],evening,19,2025-10-10T19:19:56.652224Z
+comment_0466,User0466,en,0.5,[],[],[],morning,19,2025-10-17T07:15:56.652224Z
+comment_0467,User0467,en,0.5,['Boston'],[],[],late_night,35,2025-09-21T05:46:56.652224Z
+comment_0468,User0468,en,0.5,['New York'],['Japan'],[],morning,41,2025-09-25T08:29:56.652224Z
+comment_0469,User0469,en,0.5,['Rome'],['Canada'],[],late_night,38,2025-10-18T02:19:56.652224Z
+comment_0470,User0470,en,0.5,[],['Singapore'],[],evening,42,2025-09-30T22:56:56.652224Z
+comment_0471,User0471,en,0.5,['Madrid'],['Canada'],[],evening,40,2025-09-22T22:59:56.652224Z
+comment_0472,User0472,en,0.5,['Barcelona'],['Sweden'],[],morning,43,2025-09-27T07:58:56.652224Z
+comment_0473,User0473,en,0.5,['Stockholm'],['Spain'],[],evening,42,2025-10-05T20:03:56.652224Z
+comment_0474,User0474,en,0.5,[],[],[],morning,16,2025-09-23T06:51:56.652224Z
+comment_0475,User0475,en,0.5,[],[],[],afternoon,16,2025-10-05T14:57:56.652224Z
+comment_0476,User0476,da,0.5,['Copenhagen'],[],[],late_night,35,2025-09-25T00:11:56.652224Z
+comment_0477,User0477,en,0.5,['Toronto'],[],[],afternoon,32,2025-10-14T16:12:56.652224Z
+comment_0478,User0478,en,0.5,['Chicago'],[],[],evening,35,2025-10-09T20:34:56.652224Z
+comment_0479,User0479,en,0.5,[],[],[],evening,19,2025-09-26T18:21:56.652224Z
+comment_0480,User0480,en,0.5,['Boston'],[],[],evening,31,2025-10-03T20:00:56.652224Z
+comment_0481,User0481,en,0.5,[],['Brazil'],[],morning,30,2025-09-26T06:16:56.652224Z
+comment_0482,User0482,en,0.5,['Miami'],['Brazil'],[],late_night,39,2025-09-23T02:37:56.652224Z
+comment_0483,User0483,en,0.5,[],[],[],afternoon,8,2025-10-07T13:06:56.652224Z
+comment_0484,User0484,en,0.5,['Paris'],[],[],evening,33,2025-10-10T19:29:56.652224Z
+comment_0485,User0485,en,0.5,[],[],[],afternoon,16,2025-09-29T15:38:56.652224Z
+comment_0486,User0486,en,0.5,['Chicago'],[],[],evening,36,2025-10-16T19:14:56.652224Z
+comment_0487,User0487,en,0.5,['Stockholm'],[],[],late_night,42,2025-10-15T02:45:56.652224Z
+comment_0488,User0488,en,0.5,[],['Germany'],[],late_night,31,2025-10-10T03:51:56.652224Z
+comment_0489,User0489,en,0.5,[],[],[],morning,16,2025-10-06T06:56:56.652224Z
+comment_0490,User0490,en,0.5,[],['Australia'],[],afternoon,34,2025-10-06T15:58:56.652224Z
+comment_0491,User0491,en,0.5,['Houston'],[],[],morning,36,2025-09-21T06:47:56.652224Z
+comment_0492,User0492,en,0.5,[],[],[],evening,16,2025-09-19T21:11:56.652224Z
+comment_0493,User0493,it,0.5,['Miami'],[],[],morning,30,2025-10-04T10:27:56.652224Z
+comment_0494,User0494,en,0.5,[],[],[],late_night,16,2025-09-30T05:12:56.652224Z
+comment_0495,User0495,en,0.5,[],['Argentina'],[],late_night,33,2025-10-01T05:54:56.652224Z
+comment_0496,User0496,en,0.5,[],[],[],late_night,19,2025-09-20T01:42:56.652224Z
+comment_0497,User0497,en,0.5,['London'],[],[],morning,34,2025-10-09T09:34:56.652224Z
+comment_0498,User0498,en,0.5,[],[],[],morning,19,2025-10-15T06:41:56.652224Z
+comment_0499,User0499,en,0.5,['Buenos Aires'],['Canada'],[],afternoon,46,2025-10-10T16:40:56.652224Z

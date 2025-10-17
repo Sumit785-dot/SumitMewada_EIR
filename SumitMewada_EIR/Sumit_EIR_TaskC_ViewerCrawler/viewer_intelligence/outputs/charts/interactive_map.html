@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_5a2620bbf991df5a932f6b30f174a544 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_5a2620bbf991df5a932f6b30f174a544" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_5a2620bbf991df5a932f6b30f174a544 = L.map(
+                "map_5a2620bbf991df5a932f6b30f174a544",
+                {
+                    center: [20.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 2,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_0d0b2c97b499272ac800439b8bb3dd47 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_0d0b2c97b499272ac800439b8bb3dd47.addTo(map_5a2620bbf991df5a932f6b30f174a544);
+        
+    
+            var circle_marker_fc571205ceabfa4898f98d04e8dd3313 = L.circleMarker(
+                [33.7544657, -84.3898151],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.57, "stroke": true, "weight": 2}
+            ).addTo(map_5a2620bbf991df5a932f6b30f174a544);
+        
+    
+        var popup_7587b3a379ccecb58c99b3df8b9289f0 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_2d6afd730b6a36fda34f05e7616c1aba = $(`<div id="html_2d6afd730b6a36fda34f05e7616c1aba" style="width: 100.0%; height: 100.0%;">                 <div style="font-family: Arial; font-size: 14px;">                     <h4 style="margin: 5px 0; color: #2c3e50;">Atlanta</h4>                     <p style="margin: 3px 0;"><b>Estimated:</b> 5.1%</p>                     <p style="margin: 3px 0;"><b>Mentions:</b> 26</p>                     <p style="margin: 3px 0;"><b>Confidence:</b> <span style="color: green;">High</span></p>                 </div>                 </div>`)[0];
+                popup_7587b3a379ccecb58c99b3df8b9289f0.setContent(html_2d6afd730b6a36fda34f05e7616c1aba);
+            
+        
+
+        circle_marker_fc571205ceabfa4898f98d04e8dd3313.bindPopup(popup_7587b3a379ccecb58c99b3df8b9289f0)
+        ;
+
+        
+    
+    
+            var circle_marker_1790170e125a8f57992972f8ddc2a0a5 = L.circleMarker(
+                [43.6534817, -79.3839347],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.57, "stroke": true, "weight": 2}
+            ).addTo(map_5a2620bbf991df5a932f6b30f174a544);
+        
+    
+        var popup_8e3f6a71ea678e922c601f4dbdf5e980 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_ea03992a09b0ac1a5116007c348a9165 = $(`<div id="html_ea03992a09b0ac1a5116007c348a9165" style="width: 100.0%; height: 100.0%;">                 <div style="font-family: Arial; font-size: 14px;">                     <h4 style="margin: 5px 0; color: #2c3e50;">Toronto</h4>                     <p style="margin: 3px 0;"><b>Estimated:</b> 5.1%</p>                     <p style="margin: 3px 0;"><b>Mentions:</b> 26</p>                     <p style="margin: 3px 0;"><b>Confidence:</b> <span style="color: green;">High</span></p>                 </div>                 </div>`)[0];
+                popup_8e3f6a71ea678e922c601f4dbdf5e980.setContent(html_ea03992a09b0ac1a5116007c348a9165);
+            
+        
+
+        circle_marker_1790170e125a8f57992972f8ddc2a0a5.bindPopup(popup_8e3f6a71ea678e922c601f4dbdf5e980)
+        ;
+
+        
+    
+    
+            var circle_marker_0e8c8582c9785b94035ae16c9b4f5be6 = L.circleMarker(
+                [25.7741728, -80.19362],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.37, "stroke": true, "weight": 2}
+            ).addTo(map_5a2620bbf991df5a932f6b30f174a544);
+        
+    
+        var popup_d38737598e203b9c104fa85f8228b5b8 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_74c7be16ad78ea9e7996a4053849e0d9 = $(`<div id="html_74c7be16ad78ea9e7996a4053849e0d9" style="width: 100.0%; height: 100.0%;">                 <div style="font-family: Arial; font-size: 14px;">                     <h4 style="margin: 5px 0; color: #2c3e50;">Miami</h4>                     <p style="margin: 3px 0;"><b>Estimated:</b> 4.7%</p>                     <p style="margin: 3px 0;"><b>Mentions:</b> 24</p>                     <p style="margin: 3px 0;"><b>Confidence:</b> <span style="color: green;">High</span></p>                 </div>                 </div>`)[0];
+                popup_d38737598e203b9c104fa85f8228b5b8.setContent(html_74c7be16ad78ea9e7996a4053849e0d9);
+            
+        
+
+        circle_marker_0e8c8582c9785b94035ae16c9b4f5be6.bindPopup(popup_d38737598e203b9c104fa85f8228b5b8)
+        ;
+
+        
+    
+    
+            var circle_marker_9438f375ecb1e90b16891e765a27180f = L.circleMarker(
+                [59.9133301, 10.7389701],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.175, "stroke": true, "weight": 2}
+            ).addTo(map_5a2620bbf991df5a932f6b30f174a544);
+        
+    
+        var popup_dd513dcc9b42d799e29a60c2ce81aa29 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_87ab4baae1ff6d79fceebedd703c261a = $(`<div id="html_87ab4baae1ff6d79fceebedd703c261a" style="width: 100.0%; height: 100.0%;">                 <div style="font-family: Arial; font-size: 14px;">                     <h4 style="margin: 5px 0; color: #2c3e50;">Oslo</h4>                     <p style="margin: 3px 0;"><b>Estimated:</b> 4.3%</p>                     <p style="margin: 3px 0;"><b>Mentions:</b> 22</p>                     <p style="margin: 3px 0;"><b>Confidence:</b> <span style="color: green;">High</span></p>                 </div>                 </div>`)[0];
+                popup_dd513dcc9b42d799e29a60c2ce81aa29.setContent(html_87ab4baae1ff6d79fceebedd703c261a);
+            
+        
+
+        circle_marker_9438f375ecb1e90b16891e765a27180f.bindPopup(popup_dd513dcc9b42d799e29a60c2ce81aa29)
+        ;
+
+        
+    
+    
+            var circle_marker_11dc563c5cc64a625cb3568731d7009e = L.circleMarker(
+                [-23.5506507, -46.6333824],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.175, "stroke": true, "weight": 2}
+            ).addTo(map_5a2620bbf991df5a932f6b30f174a544);
+        
+    
+        var popup_3b74753cdea1a9e4ce79c53436764d30 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_5b4d7759aeb659558fd111140c6d3bcd = $(`<div id="html_5b4d7759aeb659558fd111140c6d3bcd" style="width: 100.0%; height: 100.0%;">                 <div style="font-family: Arial; font-size: 14px;">                     <h4 style="margin: 5px 0; color: #2c3e50;">São Paulo</h4>                     <p style="margin: 3px 0;"><b>Estimated:</b> 4.3%</p>                     <p style="margin: 3px 0;"><b>Mentions:</b> 22</p>                     <p style="margin: 3px 0;"><b>Confidence:</b> <span style="color: green;">High</span></p>                 </div>                 </div>`)[0];
+                popup_3b74753cdea1a9e4ce79c53436764d30.setContent(html_5b4d7759aeb659558fd111140c6d3bcd);
+            
+        
+
+        circle_marker_11dc563c5cc64a625cb3568731d7009e.bindPopup(popup_3b74753cdea1a9e4ce79c53436764d30)
+        ;
+
+        
+    
+    
+            var circle_marker_8a7cf953062798a6afbb7a3ec2df0df5 = L.circleMarker(
+                [42.3554334, -71.060511],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.175, "stroke": true, "weight": 2}
+            ).addTo(map_5a2620bbf991df5a932f6b30f174a544);
+        
+    
+        var popup_351e8c42b52039d7326a3ce1df0de15f = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_a1576f302cf573e28a6710b1453879f9 = $(`<div id="html_a1576f302cf573e28a6710b1453879f9" style="width: 100.0%; height: 100.0%;">                 <div style="font-family: Arial; font-size: 14px;">                     <h4 style="margin: 5px 0; color: #2c3e50;">Boston</h4>                     <p style="margin: 3px 0;"><b>Estimated:</b> 4.3%</p>                     <p style="margin: 3px 0;"><b>Mentions:</b> 22</p>                     <p style="margin: 3px 0;"><b>Confidence:</b> <span style="color: green;">High</span></p>                 </div>                 </div>`)[0];
+                popup_351e8c42b52039d7326a3ce1df0de15f.setContent(html_a1576f302cf573e28a6710b1453879f9);
+            
+        
+
+        circle_marker_8a7cf953062798a6afbb7a3ec2df0df5.bindPopup(popup_351e8c42b52039d7326a3ce1df0de15f)
+        ;
+
+        
+    
+    
+            var circle_marker_caa47682c2e9315483eee3812028dee6 = L.circleMarker(
+                [52.5173885, 13.3951309],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.975, "stroke": true, "weight": 2}
+            ).addTo(map_5a2620bbf991df5a932f6b30f174a544);
+        
+    
+        var popup_ae2520c6ce674c7a14b4f9ec3015bb14 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_0d99825b5a77bbed96d225745b8d26ce = $(`<div id="html_0d99825b5a77bbed96d225745b8d26ce" style="width: 100.0%; height: 100.0%;">                 <div style="font-family: Arial; font-size: 14px;">                     <h4 style="margin: 5px 0; color: #2c3e50;">Berlin</h4>                     <p style="margin: 3px 0;"><b>Estimated:</b> 4.0%</p>                     <p style="margin: 3px 0;"><b>Mentions:</b> 20</p>                     <p style="margin: 3px 0;"><b>Confidence:</b> <span style="color: green;">High</span></p>                 </div>                 </div>`)[0];
+                popup_ae2520c6ce674c7a14b4f9ec3015bb14.setContent(html_0d99825b5a77bbed96d225745b8d26ce);
+            
+        
+
+        circle_marker_caa47682c2e9315483eee3812028dee6.bindPopup(popup_ae2520c6ce674c7a14b4f9ec3015bb14)
+        ;
+
+        
+    
+    
+            var circle_marker_68af89d69905617fc844fa327a271df0 = L.circleMarker(
+                [37.7792588, -122.4193286],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.975, "stroke": true, "weight": 2}
+            ).addTo(map_5a2620bbf991df5a932f6b30f174a544);
+        
+    
+        var popup_407fa29302a711feaac6d2f3d56b5d26 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_c39043687d02344f0be883111aba9aec = $(`<div id="html_c39043687d02344f0be883111aba9aec" style="width: 100.0%; height: 100.0%;">                 <div style="font-family: Arial; font-size: 14px;">                     <h4 style="margin: 5px 0; color: #2c3e50;">San Francisco</h4>                     <p style="margin: 3px 0;"><b>Estimated:</b> 4.0%</p>                     <p style="margin: 3px 0;"><b>Mentions:</b> 20</p>                     <p style="margin: 3px 0;"><b>Confidence:</b> <span style="color: green;">High</span></p>                 </div>                 </div>`)[0];
+                popup_407fa29302a711feaac6d2f3d56b5d26.setContent(html_c39043687d02344f0be883111aba9aec);
+            
+        
+
+        circle_marker_68af89d69905617fc844fa327a271df0.bindPopup(popup_407fa29302a711feaac6d2f3d56b5d26)
+        ;
+
+        
+    
+    
+            var circle_marker_7bff151075eca235f7a75c55755f9878 = L.circleMarker(
+                [29.7589382, -95.3676974],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.78, "stroke": true, "weight": 2}
+            ).addTo(map_5a2620bbf991df5a932f6b30f174a544);
+        
+    
+        var popup_678732fc089803a38ca42d78fbca885c = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_714cfe28353bf6a887bac27b3ef0fe70 = $(`<div id="html_714cfe28353bf6a887bac27b3ef0fe70" style="width: 100.0%; height: 100.0%;">                 <div style="font-family: Arial; font-size: 14px;">                     <h4 style="margin: 5px 0; color: #2c3e50;">Houston</h4>                     <p style="margin: 3px 0;"><b>Estimated:</b> 3.6%</p>                     <p style="margin: 3px 0;"><b>Mentions:</b> 18</p>                     <p style="margin: 3px 0;"><b>Confidence:</b> <span style="color: green;">High</span></p>                 </div>                 </div>`)[0];
+                popup_678732fc089803a38ca42d78fbca885c.setContent(html_714cfe28353bf6a887bac27b3ef0fe70);
+            
+        
+
+        circle_marker_7bff151075eca235f7a75c55755f9878.bindPopup(popup_678732fc089803a38ca42d78fbca885c)
+        ;
+
+        
+    
+    
+            var circle_marker_3507ea7b88e4d4cd9450decb7854f5fc = L.circleMarker(
+                [47.6038321, -122.330062],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.78, "stroke": true, "weight": 2}
+            ).addTo(map_5a2620bbf991df5a932f6b30f174a544);
+        
+    
+        var popup_7aacdb94c76662bf1e0ad85016839210 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_bcb5b36db0881e13f61e4d0bf9164ed8 = $(`<div id="html_bcb5b36db0881e13f61e4d0bf9164ed8" style="width: 100.0%; height: 100.0%;">                 <div style="font-family: Arial; font-size: 14px;">                     <h4 style="margin: 5px 0; color: #2c3e50;">Seattle</h4>                     <p style="margin: 3px 0;"><b>Estimated:</b> 3.6%</p>                     <p style="margin: 3px 0;"><b>Mentions:</b> 18</p>                     <p style="margin: 3px 0;"><b>Confidence:</b> <span style="color: green;">High</span></p>                 </div>                 </div>`)[0];
+                popup_7aacdb94c76662bf1e0ad85016839210.setContent(html_bcb5b36db0881e13f61e4d0bf9164ed8);
+            
+        
+
+        circle_marker_3507ea7b88e4d4cd9450decb7854f5fc.bindPopup(popup_7aacdb94c76662bf1e0ad85016839210)
+        ;
+
+        
+    
+    
+            var circle_marker_c67f12be901c543db3f30bbecbc7a17f = L.circleMarker(
+                [41.8755616, -87.6244212],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.58, "stroke": true, "weight": 2}
+            ).addTo(map_5a2620bbf991df5a932f6b30f174a544);
+        
+    
+        var popup_22416c3f5ba0e4e22c9e228e276dcc40 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_92600549faa299690c032896a7bf439b = $(`<div id="html_92600549faa299690c032896a7bf439b" style="width: 100.0%; height: 100.0%;">                 <div style="font-family: Arial; font-size: 14px;">                     <h4 style="margin: 5px 0; color: #2c3e50;">Chicago</h4>                     <p style="margin: 3px 0;"><b>Estimated:</b> 3.2%</p>                     <p style="margin: 3px 0;"><b>Mentions:</b> 16</p>                     <p style="margin: 3px 0;"><b>Confidence:</b> <span style="color: green;">High</span></p>                 </div>                 </div>`)[0];
+                popup_22416c3f5ba0e4e22c9e228e276dcc40.setContent(html_92600549faa299690c032896a7bf439b);
+            
+        
+
+        circle_marker_c67f12be901c543db3f30bbecbc7a17f.bindPopup(popup_22416c3f5ba0e4e22c9e228e276dcc40)
+        ;
+
+        
+    
+    
+            var circle_marker_76e50ed85f49a31414100ac0625d11f2 = L.circleMarker(
+                [34.0536909, -118.242766],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.58, "stroke": true, "weight": 2}
+            ).addTo(map_5a2620bbf991df5a932f6b30f174a544);
+        
+    
+        var popup_440807b5ec70dfd749f2e5e26712873d = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_7cfc65d67060957f884840cf02f98536 = $(`<div id="html_7cfc65d67060957f884840cf02f98536" style="width: 100.0%; height: 100.0%;">                 <div style="font-family: Arial; font-size: 14px;">                     <h4 style="margin: 5px 0; color: #2c3e50;">Los Angeles</h4>                     <p style="margin: 3px 0;"><b>Estimated:</b> 3.2%</p>                     <p style="margin: 3px 0;"><b>Mentions:</b> 16</p>                     <p style="margin: 3px 0;"><b>Confidence:</b> <span style="color: green;">High</span></p>                 </div>                 </div>`)[0];
+                popup_440807b5ec70dfd749f2e5e26712873d.setContent(html_7cfc65d67060957f884840cf02f98536);
+            
+        
+
+        circle_marker_76e50ed85f49a31414100ac0625d11f2.bindPopup(popup_440807b5ec70dfd749f2e5e26712873d)
+        ;
+
+        
+    
+    
+            var circle_marker_98dc1beb69743d87b1138415b5333366 = L.circleMarker(
+                [-34.6095579, -58.3887904],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.58, "stroke": true, "weight": 2}
+            ).addTo(map_5a2620bbf991df5a932f6b30f174a544);
+        
+    
+        var popup_b780f02c4547c5f92de3eafb260ebe74 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_cb16a91168a2321ccdecd3f16d409c05 = $(`<div id="html_cb16a91168a2321ccdecd3f16d409c05" style="width: 100.0%; height: 100.0%;">                 <div style="font-family: Arial; font-size: 14px;">                     <h4 style="margin: 5px 0; color: #2c3e50;">Buenos Aires</h4>                     <p style="margin: 3px 0;"><b>Estimated:</b> 3.2%</p>                     <p style="margin: 3px 0;"><b>Mentions:</b> 16</p>                     <p style="margin: 3px 0;"><b>Confidence:</b> <span style="color: green;">High</span></p>                 </div>                 </div>`)[0];
+                popup_b780f02c4547c5f92de3eafb260ebe74.setContent(html_cb16a91168a2321ccdecd3f16d409c05);
+            
+        
+
+        circle_marker_98dc1beb69743d87b1138415b5333366.bindPopup(popup_b780f02c4547c5f92de3eafb260ebe74)
+        ;
+
+        
+    
+    
+            var circle_marker_065f8227e91e28509f486a1440c17ffb = L.circleMarker(
+                [51.5074456, -0.1277653],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.58, "stroke": true, "weight": 2}
+            ).addTo(map_5a2620bbf991df5a932f6b30f174a544);
+        
+    
+        var popup_14f8bf10c6c29bb8ebb0af029cc1ac08 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_d03e7f8f26c60f559fdabc70336abb7c = $(`<div id="html_d03e7f8f26c60f559fdabc70336abb7c" style="width: 100.0%; height: 100.0%;">                 <div style="font-family: Arial; font-size: 14px;">                     <h4 style="margin: 5px 0; color: #2c3e50;">London</h4>                     <p style="margin: 3px 0;"><b>Estimated:</b> 3.2%</p>                     <p style="margin: 3px 0;"><b>Mentions:</b> 16</p>                     <p style="margin: 3px 0;"><b>Confidence:</b> <span style="color: green;">High</span></p>                 </div>                 </div>`)[0];
+                popup_14f8bf10c6c29bb8ebb0af029cc1ac08.setContent(html_d03e7f8f26c60f559fdabc70336abb7c);
+            
+        
+
+        circle_marker_065f8227e91e28509f486a1440c17ffb.bindPopup(popup_14f8bf10c6c29bb8ebb0af029cc1ac08)
+        ;
+
+        
+    
+    
+            var circle_marker_dbc6bb67144cb0155b98fd05eb7ef9ff = L.circleMarker(
+                [59.3251172, 18.0710935],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.58, "stroke": true, "weight": 2}
+            ).addTo(map_5a2620bbf991df5a932f6b30f174a544);
+        
+    
+        var popup_0a341b2189ea2e95c5e4858fcc62a15c = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_51f2d8d54a1d6f8f2f93bf608744c4df = $(`<div id="html_51f2d8d54a1d6f8f2f93bf608744c4df" style="width: 100.0%; height: 100.0%;">                 <div style="font-family: Arial; font-size: 14px;">                     <h4 style="margin: 5px 0; color: #2c3e50;">Stockholm</h4>                     <p style="margin: 3px 0;"><b>Estimated:</b> 3.2%</p>                     <p style="margin: 3px 0;"><b>Mentions:</b> 16</p>                     <p style="margin: 3px 0;"><b>Confidence:</b> <span style="color: green;">High</span></p>                 </div>                 </div>`)[0];
+                popup_0a341b2189ea2e95c5e4858fcc62a15c.setContent(html_51f2d8d54a1d6f8f2f93bf608744c4df);
+            
+        
+
+        circle_marker_dbc6bb67144cb0155b98fd05eb7ef9ff.bindPopup(popup_0a341b2189ea2e95c5e4858fcc62a15c)
+        ;
+
+        
+    
+    
+            var circle_marker_5523076cbb6e5d960103195af3a6d320 = L.circleMarker(
+                [30.2711286, -97.7436995],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.385, "stroke": true, "weight": 2}
+            ).addTo(map_5a2620bbf991df5a932f6b30f174a544);
+        
+    
+        var popup_33353fd2a87fab0b5516d74577fd84d1 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_28df5db74ad97e556825ceffb611140d = $(`<div id="html_28df5db74ad97e556825ceffb611140d" style="width: 100.0%; height: 100.0%;">                 <div style="font-family: Arial; font-size: 14px;">                     <h4 style="margin: 5px 0; color: #2c3e50;">Austin</h4>                     <p style="margin: 3px 0;"><b>Estimated:</b> 2.8%</p>                     <p style="margin: 3px 0;"><b>Mentions:</b> 14</p>                     <p style="margin: 3px 0;"><b>Confidence:</b> <span style="color: green;">High</span></p>                 </div>                 </div>`)[0];
+                popup_33353fd2a87fab0b5516d74577fd84d1.setContent(html_28df5db74ad97e556825ceffb611140d);
+            
+        
+
+        circle_marker_5523076cbb6e5d960103195af3a6d320.bindPopup(popup_33353fd2a87fab0b5516d74577fd84d1)
+        ;
+
+        
+    
+    
+            var circle_marker_685717d5ab304e50a34b93b1ed0ac012 = L.circleMarker(
+                [19.054999, 72.8692035],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.385, "stroke": true, "weight": 2}
+            ).addTo(map_5a2620bbf991df5a932f6b30f174a544);
+        
+    
+        var popup_77286030055431cc44c4587b35635f8f = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_e177549f281ba2962caabbf18a9dcc8a = $(`<div id="html_e177549f281ba2962caabbf18a9dcc8a" style="width: 100.0%; height: 100.0%;">                 <div style="font-family: Arial; font-size: 14px;">                     <h4 style="margin: 5px 0; color: #2c3e50;">Mumbai</h4>                     <p style="margin: 3px 0;"><b>Estimated:</b> 2.8%</p>                     <p style="margin: 3px 0;"><b>Mentions:</b> 14</p>                     <p style="margin: 3px 0;"><b>Confidence:</b> <span style="color: green;">High</span></p>                 </div>                 </div>`)[0];
+                popup_77286030055431cc44c4587b35635f8f.setContent(html_e177549f281ba2962caabbf18a9dcc8a);
+            
+        
+
+        circle_marker_685717d5ab304e50a34b93b1ed0ac012.bindPopup(popup_77286030055431cc44c4587b35635f8f)
+        ;
+
+        
+    
+    
+            var circle_marker_9d7d80f14c199d502f5c8ec1d2a448c4 = L.circleMarker(
+                [52.3730796, 4.8924534],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.385, "stroke": true, "weight": 2}
+            ).addTo(map_5a2620bbf991df5a932f6b30f174a544);
+        
+    
+        var popup_75f0729e87bd3cd2366aefd6a3f51b98 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_56390721e1ea4fc9f41465b2a1e12ca5 = $(`<div id="html_56390721e1ea4fc9f41465b2a1e12ca5" style="width: 100.0%; height: 100.0%;">                 <div style="font-family: Arial; font-size: 14px;">                     <h4 style="margin: 5px 0; color: #2c3e50;">Amsterdam</h4>                     <p style="margin: 3px 0;"><b>Estimated:</b> 2.8%</p>                     <p style="margin: 3px 0;"><b>Mentions:</b> 14</p>                     <p style="margin: 3px 0;"><b>Confidence:</b> <span style="color: green;">High</span></p>                 </div>                 </div>`)[0];
+                popup_75f0729e87bd3cd2366aefd6a3f51b98.setContent(html_56390721e1ea4fc9f41465b2a1e12ca5);
+            
+        
+
+        circle_marker_9d7d80f14c199d502f5c8ec1d2a448c4.bindPopup(popup_75f0729e87bd3cd2366aefd6a3f51b98)
+        ;
+
+        
+    
+    
+            var circle_marker_63f82a162d5d29ba6cd81cff2a107be8 = L.circleMarker(
+                [-33.8698439, 151.2082848],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.385, "stroke": true, "weight": 2}
+            ).addTo(map_5a2620bbf991df5a932f6b30f174a544);
+        
+    
+        var popup_c8f1e470e9ce0f8f84e53dad43913bed = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_ffc4a74c14cb6c6c1928c88b4f915994 = $(`<div id="html_ffc4a74c14cb6c6c1928c88b4f915994" style="width: 100.0%; height: 100.0%;">                 <div style="font-family: Arial; font-size: 14px;">                     <h4 style="margin: 5px 0; color: #2c3e50;">Sydney</h4>                     <p style="margin: 3px 0;"><b>Estimated:</b> 2.8%</p>                     <p style="margin: 3px 0;"><b>Mentions:</b> 14</p>                     <p style="margin: 3px 0;"><b>Confidence:</b> <span style="color: green;">High</span></p>                 </div>                 </div>`)[0];
+                popup_c8f1e470e9ce0f8f84e53dad43913bed.setContent(html_ffc4a74c14cb6c6c1928c88b4f915994);
+            
+        
+
+        circle_marker_63f82a162d5d29ba6cd81cff2a107be8.bindPopup(popup_c8f1e470e9ce0f8f84e53dad43913bed)
+        ;
+
+        
+    
+    
+            var circle_marker_ed101b37e74b9df96dc0c945eac952f3 = L.circleMarker(
+                [55.6867243, 12.5700724],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.32, "stroke": true, "weight": 2}
+            ).addTo(map_5a2620bbf991df5a932f6b30f174a544);
+        
+    
+        var popup_810e9dd279b1af0e35f707f9f63bc62b = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_8751ec75c9733fa804d941bc73fa5fe0 = $(`<div id="html_8751ec75c9733fa804d941bc73fa5fe0" style="width: 100.0%; height: 100.0%;">                 <div style="font-family: Arial; font-size: 14px;">                     <h4 style="margin: 5px 0; color: #2c3e50;">Copenhagen</h4>                     <p style="margin: 3px 0;"><b>Estimated:</b> 2.6%</p>                     <p style="margin: 3px 0;"><b>Mentions:</b> 13</p>                     <p style="margin: 3px 0;"><b>Confidence:</b> <span style="color: green;">High</span></p>                 </div>                 </div>`)[0];
+                popup_810e9dd279b1af0e35f707f9f63bc62b.setContent(html_8751ec75c9733fa804d941bc73fa5fe0);
+            
+        
+
+        circle_marker_ed101b37e74b9df96dc0c945eac952f3.bindPopup(popup_810e9dd279b1af0e35f707f9f63bc62b)
+        ;
+
+        
+    
+</script>
+</html>

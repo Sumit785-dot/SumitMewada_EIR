@@ -1,0 +1,20 @@
+location,total_score,mention_count,avg_confidence,signal_types,num_signals,estimated_percentage,confidence_level
+United States,131.5999999999993,432,0.30462962962962803,"['language_to_country', 'country_mentioned']",432,56.99,Medium
+Italy,14.500000000000005,39,0.3717948717948719,"['language_to_country', 'country_mentioned']",39,6.28,Medium
+Singapore,9.799999999999999,14,0.7,['country_mentioned'],14,4.24,High
+Denmark,8.8,16,0.55,"['language_to_country', 'country_mentioned']",16,3.81,Medium
+Brazil,7.3999999999999995,14,0.5285714285714286,"['language_to_country', 'country_mentioned']",14,3.2,Medium
+Netherlands,6.8,16,0.425,"['language_to_country', 'country_mentioned']",16,2.94,Medium
+Japan,4.9,7,0.7000000000000001,['country_mentioned'],7,2.12,High
+Norway,4.599999999999999,10,0.45999999999999985,"['language_to_country', 'country_mentioned']",10,1.99,Medium
+Sweden,4.5,7,0.6428571428571429,"['language_to_country', 'country_mentioned']",7,1.95,Medium
+Spain,4.4,8,0.55,"['language_to_country', 'country_mentioned']",8,1.91,Medium
+United Kingdom,4.2,6,0.7000000000000001,['country_mentioned'],6,1.82,High
+Australia,4.2,6,0.7000000000000001,['country_mentioned'],6,1.82,High
+Canada,4.2,6,0.7000000000000001,['country_mentioned'],6,1.82,High
+India,3.5,5,0.7,['country_mentioned'],5,1.52,High
+Argentina,3.5,5,0.7,['country_mentioned'],5,1.52,High
+Mexico,3.5,5,0.7,['country_mentioned'],5,1.52,High
+France,3.5,5,0.7,['country_mentioned'],5,1.52,High
+Finland,3.5,5,0.7,['country_mentioned'],5,1.52,High
+Germany,3.5,5,0.7,['country_mentioned'],5,1.52,High

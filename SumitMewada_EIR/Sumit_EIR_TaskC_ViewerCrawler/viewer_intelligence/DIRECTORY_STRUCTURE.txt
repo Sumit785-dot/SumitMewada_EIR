@@ -1,0 +1,245 @@
+YouTube Viewer Intelligence Crawler - Directory Structure
+=========================================================
+
+viewer_intelligence/
+│
+├── 📄 README.md                          Main documentation (comprehensive guide)
+├── 📄 QUICKSTART.md                      5-minute setup guide
+├── 📄 METHODOLOGY.md                     Detailed technical methodology
+├── 📄 PROJECT_SUMMARY.md                 Project overview and completion status
+├── 📄 LICENSE                            MIT License with data usage terms
+├── 📄 DIRECTORY_STRUCTURE.txt            This file
+│
+├── 📄 requirements.txt                   Python dependencies
+├── 📄 .env.example                       Environment variables template
+├── 📄 .gitignore                         Git ignore rules
+│
+├── 🐍 main.py                            Main pipeline orchestrator (START HERE)
+├── 🐍 setup.py                           Automated setup script
+├── 🐍 test_pipeline.py                   Comprehensive test suite
+├── 🐍 generate_sample_data.py            Sample data generator
+├── 📄 pipeline.log                       Runtime logs (generated)
+│
+├── 📁 src/                               Source code modules
+│   ├── 🐍 __init__.py                    Package initialization
+│   ├── 🐍 data_collector.py             YouTube Data API + yt-dlp integration
+│   ├── 🐍 nlp_analyzer.py               Language detection, NER, geocoding
+│   ├── 🐍 intelligence_aggregator.py    Confidence scoring & aggregation
+│   ├── 🐍 visualizer.py                 Chart and map generation
+│   └── 🐍 report_generator.py           PDF and PNG report creation
+│
+├── 📁 data/                              Data storage (created on first run)
+│   ├── 📁 raw/                           Raw collected data
+│   │   └── 📄 video_data.json           Raw YouTube data (generated)
+│   │
+│   ├── 📁 processed/                     Analyzed data
+│   │   ├── 📄 comment_analyses.csv      Detailed NLP analysis results
+│   │   ├── 📄 distribution_cities.csv   City-level estimates
+│   │   └── 📄 distribution_countries.csv Country-level estimates
+│   │
+│   └── 📁 cache/                         Cached API responses
+│       └── 📄 video_data.json           Cached data (reusable)
+│
+└── 📁 outputs/                           Final outputs (generated)
+    ├── 📄 viewer_intelligence_report.pdf     ⭐ 1-page PDF summary
+    ├── 📄 viewer_intelligence_summary.png    ⭐ 1-page PNG summary
+    │
+    └── 📁 charts/                        Individual visualizations
+        ├── 📊 top_cities_bar.png         Top 10 cities bar chart
+        ├── 📊 top_countries_bar.png      Top 15 countries bar chart
+        ├── 📊 language_distribution_pie.png  Language pie chart
+        ├── 📊 signal_breakdown.png       Signal types breakdown
+        ├── 🗺️  interactive_map.html      Interactive city map (Folium)
+        └── 🗺️  choropleth_map.html       Interactive country map (Plotly)
+
+
+KEY FILES TO START WITH:
+========================
+
+1. 📄 QUICKSTART.md          ← Read this first (5 minutes)
+2. 🐍 setup.py               ← Run this to install everything
+3. 🐍 main.py                ← Run this to execute the pipeline
+4. 📄 README.md              ← Full documentation and methodology
+
+
+TYPICAL WORKFLOW:
+=================
+
+Step 1: Setup
+-------------
+$ python setup.py
+  → Installs dependencies
+  → Downloads spaCy model
+  → Creates .env file
+
+Step 2: Configure (Optional)
+-----------------------------
+$ edit .env
+  → Add YouTube API key (or skip to use cached data)
+
+Step 3: Run Pipeline
+--------------------
+$ python main.py
+  → Collects video data
+  → Analyzes comments
+  → Generates visualizations
+  → Creates reports
+
+Step 4: View Results
+--------------------
+$ open outputs/viewer_intelligence_report.pdf
+$ open outputs/viewer_intelligence_summary.png
+$ open outputs/charts/interactive_map.html
+
+
+TESTING:
+========
+
+Run comprehensive tests:
+$ python test_pipeline.py
+
+Generate sample data (no API needed):
+$ python generate_sample_data.py
+
+
+FILE SIZES (Approximate):
+==========================
+
+Source Code:           ~150 KB
+Documentation:         ~200 KB
+Dependencies:          ~500 MB (including spaCy model)
+Sample Data:           ~500 KB
+Generated Outputs:     ~5 MB (charts + reports)
+Total Project Size:    ~505 MB
+
+
+GENERATED FILES:
+================
+
+These files are created when you run the pipeline:
+
+✓ data/raw/video_data.json              - Raw YouTube data
+✓ data/processed/comment_analyses.csv   - NLP analysis results
+✓ data/processed/distribution_cities.csv - City estimates
+✓ data/processed/distribution_countries.csv - Country estimates
+✓ data/cache/video_data.json            - Cached data (reusable)
+✓ outputs/viewer_intelligence_report.pdf - Main PDF report
+✓ outputs/viewer_intelligence_summary.png - Visual summary
+✓ outputs/charts/*.png                   - Static charts
+✓ outputs/charts/*.html                  - Interactive maps
+✓ pipeline.log                           - Runtime logs
+
+
+DEPENDENCIES:
+=============
+
+Core Libraries (15):
+- google-api-python-client  → YouTube API
+- yt-dlp                    → Video data extraction
+- spacy                     → Named Entity Recognition
+- langdetect                → Language detection
+- geotext                   → Geographic extraction
+- geopy                     → Geocoding
+- pandas                    → Data manipulation
+- matplotlib/seaborn        → Static visualizations
+- plotly                    → Interactive charts
+- folium                    → Interactive maps
+- reportlab                 → PDF generation
+- Pillow                    → Image processing
+- python-dotenv             → Environment management
+
+See requirements.txt for complete list with versions.
+
+
+CONFIGURATION:
+==============
+
+Environment Variables (.env):
+- YOUTUBE_API_KEY           → YouTube Data API v3 key (optional)
+- MAX_COMMENTS              → Maximum comments to collect (default: 1000)
+- API_QUOTA_LIMIT           → Daily API quota limit (default: 10000)
+
+Pipeline Settings (main.py):
+- VIDEO_URL                 → Target YouTube video URL
+- MAX_COMMENTS              → Comment limit
+- USE_CACHE                 → Use cached data (True/False)
+
+
+OUTPUTS EXPLAINED:
+==================
+
+1. viewer_intelligence_report.pdf
+   - Professional 1-page summary
+   - Video metadata
+   - Top 5 cities table
+   - Key findings
+   - Methodology notes
+   - Confidence levels
+
+2. viewer_intelligence_summary.png
+   - Visual dashboard
+   - Top cities chart
+   - Language distribution
+   - Country breakdown
+
+3. Charts (outputs/charts/)
+   - top_cities_bar.png       → Horizontal bar chart
+   - top_countries_bar.png    → Vertical bar chart
+   - language_distribution_pie.png → Pie chart
+   - signal_breakdown.png     → Signal types used
+   - interactive_map.html     → City markers on map
+   - choropleth_map.html      → Country heatmap
+
+4. Data Files (data/processed/)
+   - comment_analyses.csv     → Full NLP analysis
+   - distribution_cities.csv  → City estimates with confidence
+   - distribution_countries.csv → Country estimates with confidence
+
+
+TROUBLESHOOTING:
+================
+
+Issue: "No API key found"
+→ Solution: Add key to .env or set USE_CACHE=True
+
+Issue: "spaCy model not found"
+→ Solution: python -m spacy download en_core_web_sm
+
+Issue: "No comments collected"
+→ Solution: Check API key or use sample data
+
+Issue: "Geocoding rate limit"
+→ Solution: Reduce MAX_COMMENTS or use cache
+
+See README.md → Troubleshooting section for more help.
+
+
+SUPPORT:
+========
+
+📚 Documentation:  README.md, QUICKSTART.md, METHODOLOGY.md
+🧪 Testing:        python test_pipeline.py
+📝 Logs:           pipeline.log
+🐛 Issues:         Check logs and test suite
+
+
+VERSION INFORMATION:
+====================
+
+Project Version:   1.0.0
+Python Required:   3.8+
+Last Updated:      2024-01-15
+License:           MIT (see LICENSE file)
+
+
+CREDITS:
+========
+
+Built with:
+- Python 3.8+
+- YouTube Data API v3
+- spaCy NLP
+- OpenStreetMap Nominatim
+- And 15+ open-source libraries
+
+For research and educational purposes.

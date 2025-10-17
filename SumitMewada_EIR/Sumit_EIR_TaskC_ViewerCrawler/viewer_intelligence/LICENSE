@@ -1,0 +1,45 @@
+MIT License
+
+Copyright (c) 2024 YouTube Viewer Intelligence Crawler Project
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+ADDITIONAL TERMS FOR DATA USAGE:
+
+1. YouTube Data:
+   - Subject to YouTube Terms of Service (https://www.youtube.com/t/terms)
+   - Must comply with YouTube API Services Terms (https://developers.google.com/youtube/terms/api-services-terms-of-service)
+   - Data collected must be used in accordance with YouTube's policies
+
+2. OpenStreetMap Data:
+   - Subject to Open Database License (ODbL) (https://opendatacommons.org/licenses/odbl/)
+   - Attribution required when using geocoding results
+
+3. Ethical Use:
+   - This tool is intended for research and educational purposes
+   - Users must respect privacy and not use for individual profiling
+   - Results should be reported with appropriate confidence levels and limitations
+   - Commercial use should comply with all applicable data protection regulations
+
+4. No Warranty:
+   - Geographic estimates are probabilistic and may be inaccurate
+   - Users are responsible for validating results before making decisions
+   - The authors assume no liability for decisions based on this tool's output
